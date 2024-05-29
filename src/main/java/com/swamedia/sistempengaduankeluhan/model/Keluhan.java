@@ -56,7 +56,7 @@ public class Keluhan extends BaseModel {
 	@Schema(example = "089778662551")
 	private String waPelapor;
 
-	@Column(name = "uraian_keluhan")
+	@Column(name = "uraian_keluhan",columnDefinition = "TEXT")
 	@Schema(example = "Air kotor")
 	private String uraianKeluhan;
 
